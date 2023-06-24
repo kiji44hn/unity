@@ -62,6 +62,7 @@
     <Compile Include="Assets/Scripts/TestScript.cs" />
     <Compile Include="Assets/Task/DeclarationAndAssignment.cs" />
     <Compile Include="Assets/Task/Player.cs" />
+    <Compile Include="Assets/Task/Strs.cs" />
     <Compile Include="Assets/Task/Str.cs" />
   </ItemGroup>
   <ItemGroup>

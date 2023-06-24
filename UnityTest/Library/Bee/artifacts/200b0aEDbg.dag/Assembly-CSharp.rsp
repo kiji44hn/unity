@@ -355,6 +355,7 @@
 "Assets/Task/DeclarationAndAssignment.cs"
 "Assets/Task/Player.cs"
 "Assets/Task/Str.cs"
+"Assets/Task/Strs.cs"
 -langversion:9.0
 
 /deterministic
