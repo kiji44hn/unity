@@ -1,22 +1,15 @@
 ﻿<Properties StartupConfiguration="{03FB2056-251D-5424-624C-AD3996B1095C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Task/NewMonoBehaviour.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Task/Strs.cs">
     <Files>
-      <File FileName="Assets/Scripts/TestScript.cs" Line="1" Column="35" />
-      <File FileName="Assets/DeclarationAndAssignment.cs" Line="16" Column="1" />
-      <File FileName="Assets/CommenntsAndConsole.cs" Line="13" Column="1" />
-      <File FileName="Assets/Task/Strs.cs" Line="5" Column="18" />
+      <File FileName="Assets/Task/Strs.cs" Line="15" Column="1" />
       <File FileName="Assets/NewMonoBehaviour.cs" Line="17" Column="6" />
-      <File FileName="Assets/Task/NewMonoBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets/Task/NewMonoBehaviour.cs" Line="10" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="UnityTest" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Task" expanded="True">
-                <Node name="NewMonoBehaviour.cs" selected="True" />
-              </Node>
-            </Node>
+            <Node name="Assets" expanded="True" />
           </Node>
         </State>
       </Pad>
