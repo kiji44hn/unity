@@ -357,6 +357,7 @@
 "Assets/Scripts/itemListEntity.cs"
 "Assets/Scripts/PickupObj.cs"
 "Assets/Scripts/Slot.cs"
+"Assets/Scripts/ZoomPanel.cs"
 -langversion:9.0
 
 /deterministic
