@@ -58,13 +58,19 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.3f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Str2.cs" />
+    <Compile Include="Assets/Task/CommenntsAndConsole.cs" />
+    <Compile Include="Assets/Task/Str5.cs" />
+    <Compile Include="Assets/Task/Str2.cs" />
+    <Compile Include="Assets/Task/Str8.cs" />
     <Compile Include="Assets/Scripts/TestScript.cs" />
-    <Compile Include="Assets/Str3.cs" />
-    <Compile Include="Assets\Str4.cs" />
-    <Compile Include="Assets/DeclarationAndAssignment.cs" />
-    <Compile Include="Assets/CommenntsAndConsole.cs" />
-    <Compile Include="Assets/Strs.cs" />
+    <Compile Include="Assets/Task/Str10.cs" />
+    <Compile Include="Assets/Task/Str6.cs" />
+    <Compile Include="Assets/Task/DeclarationAndAssignment.cs" />
+    <Compile Include="Assets/Task/Str3.cs" />
+    <Compile Include="Assets/Task/Str4.cs" />
+    <Compile Include="Assets/Task/Strs.cs" />
+    <Compile Include="Assets/Task/Str7.cs" />
+    <Compile Include="Assets/Task/Str9.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
