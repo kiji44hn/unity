@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class ItemBox : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    // どこでも実行できる
+    public static ItemBox instance;
+    public void Awake()
     {
-        
+        if (instance == null)
+        {
+            instance = this;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    // PickupObjがクリックされたら、スロットにアイテムを入れる
+
+    public void SetItem()
     {
-        
+        Debug.Log("SetItem");
     }
 }

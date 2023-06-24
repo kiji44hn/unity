@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{2C8D6DA2-2945-FB65-CF9A-23EA206738D8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Item.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PickupObj.cs">
     <Files>
-      <File FileName="Assets/Scripts/PickupObj.cs" Line="11" Column="37" />
-      <File FileName="Assets/Scripts/Item.cs" Line="5" Column="15" />
+      <File FileName="Assets/Scripts/PickupObj.cs" Line="17" Column="1" />
+      <File FileName="Assets/Scripts/Item.cs" Line="5" Column="18" />
+      <File FileName="Assets/Scripts/ItemBox.cs" Line="13" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +11,7 @@
           <Node name="Games" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Item.cs" selected="True" />
+                <Node name="PickupObj.cs" selected="True" />
               </Node>
             </Node>
           </Node>

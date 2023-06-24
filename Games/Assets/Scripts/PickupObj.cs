@@ -10,6 +10,7 @@ public class PickupObj : MonoBehaviour
     public void OnClickObj()
     {
         Debug.Log(item);
+        ItemBox.instance.SetItem();
         gameObject.SetActive(false);
     }
 }
