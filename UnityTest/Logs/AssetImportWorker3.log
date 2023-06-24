@@ -1994,3 +1994,2542 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
   custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.230 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.448 seconds
+Domain Reload Profiling: 2693ms
+	BeginReloadAssembly (321ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (135ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (809ms)
+		LoadAssemblies (450ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (479ms)
+			TypeCache.Refresh (467ms)
+				TypeCache.ScanAssembly (425ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1456ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (487ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3599.
+Memory consumption went from 269.7 MB to 269.6 MB.
+Total: 4.305534 ms (FindLiveObjects: 0.277724 ms CreateObjectMapping: 0.217124 ms MarkObjects: 3.741245 ms  DeleteObjects: 0.068422 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.425 seconds
+Refreshing native plugins compatible for Editor in 2.38 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.446 seconds
+Domain Reload Profiling: 2880ms
+	BeginReloadAssembly (320ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (145ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (1002ms)
+		LoadAssemblies (399ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (714ms)
+			TypeCache.Refresh (699ms)
+				TypeCache.ScanAssembly (591ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1455ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (457ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3602.
+Memory consumption went from 275.9 MB to 275.9 MB.
+Total: 3.832350 ms (FindLiveObjects: 0.260953 ms CreateObjectMapping: 0.244158 ms MarkObjects: 3.258987 ms  DeleteObjects: 0.067189 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 796.047812 seconds.
+  path: 
+  artifactKey: Guid(284eb960a9e6b45af9543f8f568f8dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(284eb960a9e6b45af9543f8f568f8dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000063 seconds
+Import Error Code:(3)
+Message: Unknown asset with GUID '284eb960a9e6b45af9543f8f568f8dda'
+  ERROR: Unknown asset with GUID '284eb960a9e6b45af9543f8f568f8dda'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.972 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.887 seconds
+Domain Reload Profiling: 1859ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (673ms)
+		LoadAssemblies (353ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (407ms)
+			TypeCache.Refresh (401ms)
+				TypeCache.ScanAssembly (390ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (888ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (524ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (368ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3058 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3605.
+Memory consumption went from 282.2 MB to 282.2 MB.
+Total: 3.407810 ms (FindLiveObjects: 0.283504 ms CreateObjectMapping: 0.203389 ms MarkObjects: 2.876967 ms  DeleteObjects: 0.042889 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.056 seconds
+Refreshing native plugins compatible for Editor in 2.03 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.354 seconds
+Domain Reload Profiling: 2410ms
+	BeginReloadAssembly (207ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (755ms)
+		LoadAssemblies (346ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (483ms)
+			TypeCache.Refresh (475ms)
+				TypeCache.ScanAssembly (464ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1354ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (443ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3608.
+Memory consumption went from 288.8 MB to 288.8 MB.
+Total: 4.762805 ms (FindLiveObjects: 0.452894 ms CreateObjectMapping: 0.313676 ms MarkObjects: 3.937279 ms  DeleteObjects: 0.057408 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.971 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.928 seconds
+Domain Reload Profiling: 1899ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (673ms)
+		LoadAssemblies (383ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (379ms)
+			TypeCache.Refresh (373ms)
+				TypeCache.ScanAssembly (362ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (929ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (539ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (365ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 3611.
+Memory consumption went from 295.2 MB to 295.2 MB.
+Total: 3.348018 ms (FindLiveObjects: 0.264485 ms CreateObjectMapping: 0.216520 ms MarkObjects: 2.821032 ms  DeleteObjects: 0.044974 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.198 seconds
+Refreshing native plugins compatible for Editor in 2.73 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.549 seconds
+Domain Reload Profiling: 2772ms
+	BeginReloadAssembly (327ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (151ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (777ms)
+		LoadAssemblies (460ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (419ms)
+			TypeCache.Refresh (409ms)
+				TypeCache.ScanAssembly (377ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1566ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (481ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 3614.
+Memory consumption went from 301.6 MB to 301.5 MB.
+Total: 4.155690 ms (FindLiveObjects: 0.295473 ms CreateObjectMapping: 0.274820 ms MarkObjects: 3.492246 ms  DeleteObjects: 0.091802 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.953 seconds
+Refreshing native plugins compatible for Editor in 2.92 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.956 seconds
+Domain Reload Profiling: 1914ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (678ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (371ms)
+			TypeCache.Refresh (366ms)
+				TypeCache.ScanAssembly (355ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (956ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (565ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 3617.
+Memory consumption went from 307.9 MB to 307.9 MB.
+Total: 4.306147 ms (FindLiveObjects: 0.261960 ms CreateObjectMapping: 0.209408 ms MarkObjects: 3.782370 ms  DeleteObjects: 0.050992 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.993 seconds
+Refreshing native plugins compatible for Editor in 2.11 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.416 seconds
+Domain Reload Profiling: 2409ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (672ms)
+		LoadAssemblies (383ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (387ms)
+			TypeCache.Refresh (378ms)
+				TypeCache.ScanAssembly (366ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1416ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (476ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3620.
+Memory consumption went from 314.3 MB to 314.3 MB.
+Total: 4.285296 ms (FindLiveObjects: 0.430244 ms CreateObjectMapping: 0.249059 ms MarkObjects: 3.481356 ms  DeleteObjects: 0.123280 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.163 seconds
+Refreshing native plugins compatible for Editor in 1.63 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.541 seconds
+Domain Reload Profiling: 2704ms
+	BeginReloadAssembly (267ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (112ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (775ms)
+		LoadAssemblies (417ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (455ms)
+			TypeCache.Refresh (445ms)
+				TypeCache.ScanAssembly (420ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1542ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (557ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (368ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 2.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3623.
+Memory consumption went from 320.7 MB to 320.7 MB.
+Total: 3.709465 ms (FindLiveObjects: 0.292741 ms CreateObjectMapping: 0.221431 ms MarkObjects: 3.147168 ms  DeleteObjects: 0.046870 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.984 seconds
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.930 seconds
+Domain Reload Profiling: 1914ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (676ms)
+		LoadAssemblies (403ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (374ms)
+			TypeCache.Refresh (366ms)
+				TypeCache.ScanAssembly (353ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (930ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (521ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (358ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3626.
+Memory consumption went from 327.1 MB to 327.0 MB.
+Total: 4.005732 ms (FindLiveObjects: 0.417115 ms CreateObjectMapping: 0.215891 ms MarkObjects: 3.316095 ms  DeleteObjects: 0.055346 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.135 seconds
+Refreshing native plugins compatible for Editor in 2.80 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.518 seconds
+Domain Reload Profiling: 2677ms
+	BeginReloadAssembly (294ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (142ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (749ms)
+		LoadAssemblies (389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (439ms)
+			TypeCache.Refresh (429ms)
+				TypeCache.ScanAssembly (400ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1533ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (521ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (23ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (334ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3629.
+Memory consumption went from 333.2 MB to 333.2 MB.
+Total: 3.857993 ms (FindLiveObjects: 0.266218 ms CreateObjectMapping: 0.209543 ms MarkObjects: 3.317898 ms  DeleteObjects: 0.063347 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.986 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.964 seconds
+Domain Reload Profiling: 1962ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (671ms)
+		LoadAssemblies (378ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (372ms)
+			TypeCache.Refresh (366ms)
+				TypeCache.ScanAssembly (356ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (973ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 2.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3632.
+Memory consumption went from 339.6 MB to 339.6 MB.
+Total: 4.046269 ms (FindLiveObjects: 0.406923 ms CreateObjectMapping: 0.274848 ms MarkObjects: 3.294914 ms  DeleteObjects: 0.068310 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.190 seconds
+Refreshing native plugins compatible for Editor in 2.89 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.578 seconds
+Domain Reload Profiling: 2783ms
+	BeginReloadAssembly (281ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (807ms)
+		LoadAssemblies (463ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (460ms)
+			TypeCache.Refresh (450ms)
+				TypeCache.ScanAssembly (413ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1588ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (567ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (372ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 2.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3635.
+Memory consumption went from 346.0 MB to 346.0 MB.
+Total: 3.904484 ms (FindLiveObjects: 0.279903 ms CreateObjectMapping: 0.237269 ms MarkObjects: 3.317178 ms  DeleteObjects: 0.068841 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.995 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.935 seconds
+Domain Reload Profiling: 1941ms
+	BeginReloadAssembly (218ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (79ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (682ms)
+		LoadAssemblies (361ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (382ms)
+			TypeCache.Refresh (375ms)
+				TypeCache.ScanAssembly (365ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (936ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (549ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (388ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3638.
+Memory consumption went from 352.4 MB to 352.4 MB.
+Total: 3.365681 ms (FindLiveObjects: 0.262609 ms CreateObjectMapping: 0.207635 ms MarkObjects: 2.844234 ms  DeleteObjects: 0.050046 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.111 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.563 seconds
+Domain Reload Profiling: 2673ms
+	BeginReloadAssembly (310ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (135ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (699ms)
+		LoadAssemblies (374ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (419ms)
+			TypeCache.Refresh (409ms)
+				TypeCache.ScanAssembly (378ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1563ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (578ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (425ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3641.
+Memory consumption went from 358.7 MB to 358.6 MB.
+Total: 4.128371 ms (FindLiveObjects: 0.263065 ms CreateObjectMapping: 0.227653 ms MarkObjects: 3.568119 ms  DeleteObjects: 0.068132 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.949 seconds
+Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.955 seconds
+Domain Reload Profiling: 1922ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (676ms)
+		LoadAssemblies (349ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (378ms)
+			TypeCache.Refresh (371ms)
+				TypeCache.ScanAssembly (360ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (956ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (535ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (378ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3644.
+Memory consumption went from 365.0 MB to 365.0 MB.
+Total: 3.603943 ms (FindLiveObjects: 0.356720 ms CreateObjectMapping: 0.308559 ms MarkObjects: 2.890669 ms  DeleteObjects: 0.046912 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.070 seconds
+Refreshing native plugins compatible for Editor in 4.83 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.381 seconds
+Domain Reload Profiling: 2467ms
+	BeginReloadAssembly (226ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (741ms)
+		LoadAssemblies (427ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (385ms)
+			TypeCache.Refresh (377ms)
+				TypeCache.ScanAssembly (367ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1381ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (461ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3647.
+Memory consumption went from 371.4 MB to 371.4 MB.
+Total: 6.753307 ms (FindLiveObjects: 0.683164 ms CreateObjectMapping: 0.515707 ms MarkObjects: 5.488262 ms  DeleteObjects: 0.064592 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.958 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.960 seconds
+Domain Reload Profiling: 1937ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (693ms)
+		LoadAssemblies (369ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (374ms)
+			TypeCache.Refresh (368ms)
+				TypeCache.ScanAssembly (357ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (961ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (549ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (379ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3650.
+Memory consumption went from 377.8 MB to 377.8 MB.
+Total: 3.905737 ms (FindLiveObjects: 0.260913 ms CreateObjectMapping: 0.216737 ms MarkObjects: 3.379723 ms  DeleteObjects: 0.047454 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.295 seconds
+Refreshing native plugins compatible for Editor in 3.24 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.193 seconds
+Domain Reload Profiling: 3489ms
+	BeginReloadAssembly (376ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (164ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (803ms)
+		LoadAssemblies (459ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (484ms)
+			TypeCache.Refresh (468ms)
+				TypeCache.ScanAssembly (438ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2194ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (764ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (226ms)
+			ProcessInitializeOnLoadAttributes (478ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3653.
+Memory consumption went from 383.9 MB to 383.9 MB.
+Total: 4.452998 ms (FindLiveObjects: 0.329681 ms CreateObjectMapping: 0.213392 ms MarkObjects: 3.816324 ms  DeleteObjects: 0.092378 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.953 seconds
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.904 seconds
+Domain Reload Profiling: 1873ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (671ms)
+		LoadAssemblies (344ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (393ms)
+			TypeCache.Refresh (387ms)
+				TypeCache.ScanAssembly (377ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (920ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (524ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3656.
+Memory consumption went from 390.3 MB to 390.2 MB.
+Total: 3.718005 ms (FindLiveObjects: 0.333601 ms CreateObjectMapping: 0.349118 ms MarkObjects: 2.985848 ms  DeleteObjects: 0.048413 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.503 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.714 seconds
+Domain Reload Profiling: 3231ms
+	BeginReloadAssembly (336ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (160ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (1052ms)
+		LoadAssemblies (609ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (511ms)
+			TypeCache.Refresh (501ms)
+				TypeCache.ScanAssembly (443ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1714ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (624ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (396ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 2.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3659.
+Memory consumption went from 396.4 MB to 396.4 MB.
+Total: 7.255838 ms (FindLiveObjects: 0.486302 ms CreateObjectMapping: 0.348207 ms MarkObjects: 6.335976 ms  DeleteObjects: 0.082121 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.107 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.850 seconds
+Domain Reload Profiling: 1957ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (758ms)
+		LoadAssemblies (486ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (394ms)
+			TypeCache.Refresh (388ms)
+				TypeCache.ScanAssembly (376ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (851ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (476ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3662.
+Memory consumption went from 402.8 MB to 402.8 MB.
+Total: 3.805267 ms (FindLiveObjects: 0.507636 ms CreateObjectMapping: 0.345536 ms MarkObjects: 2.900583 ms  DeleteObjects: 0.050144 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.299 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.425 seconds
+Domain Reload Profiling: 2723ms
+	BeginReloadAssembly (317ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (153ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (858ms)
+		LoadAssemblies (453ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (500ms)
+			TypeCache.Refresh (490ms)
+				TypeCache.ScanAssembly (444ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1426ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (457ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3665.
+Memory consumption went from 409.2 MB to 409.2 MB.
+Total: 3.789472 ms (FindLiveObjects: 0.367784 ms CreateObjectMapping: 0.286918 ms MarkObjects: 3.073948 ms  DeleteObjects: 0.059687 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.014 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.555 seconds
+Domain Reload Profiling: 2586ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (704ms)
+		LoadAssemblies (380ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (396ms)
+			TypeCache.Refresh (390ms)
+				TypeCache.ScanAssembly (379ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1572ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (525ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (342ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3668.
+Memory consumption went from 415.6 MB to 415.5 MB.
+Total: 3.782971 ms (FindLiveObjects: 0.294775 ms CreateObjectMapping: 0.223655 ms MarkObjects: 3.214631 ms  DeleteObjects: 0.048551 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.415 seconds
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.123 seconds
+Domain Reload Profiling: 3539ms
+	BeginReloadAssembly (363ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (167ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (930ms)
+		LoadAssemblies (427ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (606ms)
+			TypeCache.Refresh (585ms)
+				TypeCache.ScanAssembly (536ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2123ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (756ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (534ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 2.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3671.
+Memory consumption went from 421.9 MB to 421.9 MB.
+Total: 5.733268 ms (FindLiveObjects: 0.407230 ms CreateObjectMapping: 0.639703 ms MarkObjects: 4.591928 ms  DeleteObjects: 0.092841 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.545 seconds
+Refreshing native plugins compatible for Editor in 3.90 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.744 seconds
+Domain Reload Profiling: 3301ms
+	BeginReloadAssembly (411ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (220ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (1003ms)
+		LoadAssemblies (512ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (580ms)
+			TypeCache.Refresh (567ms)
+				TypeCache.ScanAssembly (528ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1745ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (602ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (383ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 2.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3674.
+Memory consumption went from 428.1 MB to 428.0 MB.
+Total: 5.425072 ms (FindLiveObjects: 0.412058 ms CreateObjectMapping: 0.275967 ms MarkObjects: 4.650015 ms  DeleteObjects: 0.084833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.291 seconds
+Refreshing native plugins compatible for Editor in 3.56 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.323 seconds
+Domain Reload Profiling: 2616ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (937ms)
+		LoadAssemblies (487ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (549ms)
+			TypeCache.Refresh (538ms)
+				TypeCache.ScanAssembly (519ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1323ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (655ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (427ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 3677.
+Memory consumption went from 434.5 MB to 434.4 MB.
+Total: 4.472917 ms (FindLiveObjects: 0.303980 ms CreateObjectMapping: 0.220789 ms MarkObjects: 3.895264 ms  DeleteObjects: 0.051701 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.112 seconds
+Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.041 seconds
+Domain Reload Profiling: 2159ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (779ms)
+		LoadAssemblies (402ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (451ms)
+			TypeCache.Refresh (444ms)
+				TypeCache.ScanAssembly (430ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1041ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (589ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (378ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 2.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3680.
+Memory consumption went from 440.8 MB to 440.8 MB.
+Total: 4.092432 ms (FindLiveObjects: 0.309892 ms CreateObjectMapping: 0.213703 ms MarkObjects: 3.517504 ms  DeleteObjects: 0.049950 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: 5e91b48b193dd373b40d7ae01ba2d7c5 -> 
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.803 seconds
+Refreshing native plugins compatible for Editor in 2.25 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.581 seconds
+Domain Reload Profiling: 3396ms
+	BeginReloadAssembly (327ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (155ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (1378ms)
+		LoadAssemblies (431ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1045ms)
+			TypeCache.Refresh (1033ms)
+				TypeCache.ScanAssembly (990ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1582ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (544ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (362ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3683.
+Memory consumption went from 447.1 MB to 447.1 MB.
+Total: 4.290989 ms (FindLiveObjects: 0.300141 ms CreateObjectMapping: 0.219265 ms MarkObjects: 3.697227 ms  DeleteObjects: 0.072886 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: d07ef424915c68f8d65e2573d79d58c2 -> 5e91b48b193dd373b40d7ae01ba2d7c5
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.318 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.824 seconds
+Domain Reload Profiling: 3143ms
+	BeginReloadAssembly (268ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (938ms)
+		LoadAssemblies (543ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (477ms)
+			TypeCache.Refresh (466ms)
+				TypeCache.ScanAssembly (452ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1825ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (389ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3686.
+Memory consumption went from 453.4 MB to 453.4 MB.
+Total: 4.089375 ms (FindLiveObjects: 0.297554 ms CreateObjectMapping: 0.218800 ms MarkObjects: 3.519115 ms  DeleteObjects: 0.052740 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: d07ef424915c68f8d65e2573d79d58c2 -> 5e91b48b193dd373b40d7ae01ba2d7c5
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.090 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.690 seconds
+Domain Reload Profiling: 2792ms
+	BeginReloadAssembly (226ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (754ms)
+		LoadAssemblies (376ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (457ms)
+			TypeCache.Refresh (446ms)
+				TypeCache.ScanAssembly (429ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1703ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (497ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3689.
+Memory consumption went from 459.8 MB to 459.7 MB.
+Total: 4.591319 ms (FindLiveObjects: 0.417257 ms CreateObjectMapping: 0.416214 ms MarkObjects: 3.685168 ms  DeleteObjects: 0.071084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: d07ef424915c68f8d65e2573d79d58c2 -> 5e91b48b193dd373b40d7ae01ba2d7c5
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aizawakouji/Documents/GitHub/unity/UnityTest/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.226 seconds
+Refreshing native plugins compatible for Editor in 2.39 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.117 seconds
+Domain Reload Profiling: 2343ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (911ms)
+		LoadAssemblies (410ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (574ms)
+			TypeCache.Refresh (563ms)
+				TypeCache.ScanAssembly (544ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1118ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (610ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (389ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Script is not up to date after domain reload: guid(f0fe6687536234f0a9c986b8c007cf10) path("Assets/DeclarationAndAssignment.cs") state(2)
+Script is not up to date after domain reload: guid(7e2f4d1f41adf42978c0e1883d0492c6) path("Assets/CommenntsAndConsole.cs") state(2)
+Refreshing native plugins compatible for Editor in 2.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3692.
+Memory consumption went from 466.2 MB to 466.1 MB.
+Total: 6.944902 ms (FindLiveObjects: 0.574835 ms CreateObjectMapping: 0.443464 ms MarkObjects: 5.863046 ms  DeleteObjects: 0.061774 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NewMonoBehaviour.cs: d07ef424915c68f8d65e2573d79d58c2 -> 5e91b48b193dd373b40d7ae01ba2d7c5
+  custom:scripting/monoscript/fileName/CommenntsAndConsole.cs: 25fbb732397fd669d7095e80d2726856 -> 8689400838041de4d75bc9993a3bea51
+  custom:scripting/monoscript/fileName/Str3.cs: d0bc4921327ddefc13ca0d4c55439cbb -> 37bdd7802bc610bd78681f25401cd43e
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Str5.cs: f3fb56097b2cf1176372e99d49a4312f -> acac4fa56111ab46d63ff8910c68ed61
+  custom:scripting/monoscript/fileName/Str2.cs: 12cdac0c54fb49ad5038d0b81efe243e -> 4c61bdcfdbf3a74a894eb2e4dd7051ff
+  custom:scripting/monoscript/fileName/Str7.cs: 9618709c97c471ad93119ba7ca4936d1 -> edd54bf64e3e29c768a52b627711f8a1
+  custom:scripting/monoscript/fileName/ConditionalBranch.cs: 94314e4ac59cd798b26832dbc3524cda -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/Strs.cs: 89745716ab63e19c1690ec70f7dc738d -> 58c8e428ce63d918af72c371860acc96
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Str4.cs: ab0ef47ba8b4c82ae88ef5422c9e1173 -> b6a617d5e6ccc33779d6f6cea73ba57c
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeclarationAndAssignment.cs: a6552ca23266a6324b4475840c04226c -> dcba6787a66ff0a7a266cd57e22c02be
+  custom:scripting/monoscript/fileName/Str6.cs: 767e6caa61f6dcace59f6827e6c020a0 -> 29e76e04bac0025ceadddcb43805872b
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

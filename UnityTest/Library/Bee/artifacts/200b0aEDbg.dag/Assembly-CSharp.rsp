@@ -353,6 +353,8 @@
 "Assets/Scripts/TestScript.cs"
 "Assets/Task/CommenntsAndConsole.cs"
 "Assets/Task/DeclarationAndAssignment.cs"
+"Assets/Task/Player.cs"
+"Assets/Task/Str.cs"
 -langversion:9.0
 
 /deterministic
