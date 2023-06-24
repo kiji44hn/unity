@@ -1,22 +1,24 @@
 ﻿<Properties StartupConfiguration="{2C8D6DA2-2945-FB65-CF9A-23EA206738D8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ZoomPanel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ItemBox.cs">
     <Files>
       <File FileName="Assets/Scripts/PickupObj.cs" Line="19" Column="9" />
       <File FileName="Assets/Scripts/Item.cs" />
-      <File FileName="Assets/Scripts/ItemBox.cs" />
-      <File FileName="Assets/Scripts/Slot.cs" Line="38" Column="6" />
+      <File FileName="Assets/Scripts/ItemBox.cs" Line="44" Column="22" />
+      <File FileName="Assets/Scripts/Slot.cs" Line="54" Column="21" />
       <File FileName="Assets/Scripts/itemListEntity.cs" />
       <File FileName="Assets/Scripts/itemGenerator.cs" />
       <File FileName="Assets/Gimmicks/SampleGimmick.cs" />
-      <File FileName="Assets/Scripts/ZoomPanel.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ZoomPanel.cs" Line="13" Column="54" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Games" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
               <Node name="Gimmicks" expanded="True" />
-              <Node name="Scripts" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="ItemBox.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
