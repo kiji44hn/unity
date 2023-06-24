@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{2C8D6DA2-2945-FB65-CF9A-23EA206738D8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PickupObj.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/itemGenerator.cs">
     <Files>
-      <File FileName="Assets/Scripts/PickupObj.cs" Line="17" Column="1" />
-      <File FileName="Assets/Scripts/Item.cs" Line="5" Column="18" />
-      <File FileName="Assets/Scripts/ItemBox.cs" Line="13" Column="29" />
+      <File FileName="Assets/Scripts/PickupObj.cs" Line="18" Column="12" />
+      <File FileName="Assets/Scripts/Item.cs" Line="6" Column="2" />
+      <File FileName="Assets/Scripts/ItemBox.cs" Line="30" Column="23" />
+      <File FileName="Assets/Scripts/Slot.cs" Line="22" Column="22" />
+      <File FileName="Assets/Scripts/itemListEntity.cs" Line="8" Column="12" />
+      <File FileName="Assets/Scripts/itemGenerator.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,17 +14,22 @@
           <Node name="Games" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="PickupObj.cs" selected="True" />
+                <Node name="itemGenerator.cs" selected="True" />
               </Node>
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e9827285-9559-4ef0-8b61-c74f61b471d2" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dccf34af-f855-4981-828c-e60f30ca41cd" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

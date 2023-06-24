@@ -4,13 +4,19 @@ using UnityEngine;
 
 public class PickupObj : MonoBehaviour
 {
-    [SerializeField] Item.Type item;
-    // クリックしたら消す
+    [SerializeField] Item.Type itemType;
+    Item item;
 
+    private void Start()
+    {
+        //  itemTypeに応じてitemを生成する
+        item = itemGenerator.instance.Spawn(itemType);
+    }
+
+    // クリックしたら消す
     public void OnClickObj()
     {
-        Debug.Log(item);
-        ItemBox.instance.SetItem();
+        ItemBox.instance.SetItem(item);
         gameObject.SetActive(false);
     }
 }

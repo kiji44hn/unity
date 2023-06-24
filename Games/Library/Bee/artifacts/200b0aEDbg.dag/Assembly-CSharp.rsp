@@ -352,7 +352,10 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.3f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Item.cs"
 "Assets/Scripts/ItemBox.cs"
+"Assets/Scripts/itemGenerator.cs"
+"Assets/Scripts/itemListEntity.cs"
 "Assets/Scripts/PickupObj.cs"
+"Assets/Scripts/Slot.cs"
 -langversion:9.0
 
 /deterministic
