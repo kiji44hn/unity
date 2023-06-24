@@ -352,7 +352,11 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.3f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/CommenntsAndConsole.cs"
 "Assets/DeclarationAndAssignment.cs"
+"Assets/NewMonoBehaviour.cs"
 "Assets/Scripts/TestScript.cs"
+"Assets/Str2.cs"
+"Assets/Str3.cs"
+"Assets/Strs.cs"
 -langversion:9.0
 
 /deterministic
