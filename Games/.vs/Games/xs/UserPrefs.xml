@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{2C8D6DA2-2945-FB65-CF9A-23EA206738D8}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Item.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PickupObj.cs" Line="11" Column="37" />
+      <File FileName="Assets/Scripts/Item.cs" Line="5" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Games" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Item.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e9827285-9559-4ef0-8b61-c74f61b471d2" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
