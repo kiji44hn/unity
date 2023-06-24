@@ -353,16 +353,6 @@
 "Assets/Scripts/TestScript.cs"
 "Assets/Task/CommenntsAndConsole.cs"
 "Assets/Task/DeclarationAndAssignment.cs"
-"Assets/Task/Str10.cs"
-"Assets/Task/Str2.cs"
-"Assets/Task/Str3.cs"
-"Assets/Task/Str4.cs"
-"Assets/Task/Str5.cs"
-"Assets/Task/Str6.cs"
-"Assets/Task/Str7.cs"
-"Assets/Task/Str8.cs"
-"Assets/Task/Str9.cs"
-"Assets/Task/Strs.cs"
 -langversion:9.0
 
 /deterministic

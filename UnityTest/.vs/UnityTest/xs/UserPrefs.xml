@@ -1,19 +1,9 @@
 ﻿<Properties StartupConfiguration="{03FB2056-251D-5424-624C-AD3996B1095C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Task/Str10.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Task/CommenntsAndConsole.cs">
     <Files>
       <File FileName="Assets/Scripts/TestScript.cs" Line="1" Column="35" />
       <File FileName="Assets/DeclarationAndAssignment.cs" Line="16" Column="1" />
       <File FileName="Assets/CommenntsAndConsole.cs" Line="13" Column="1" />
-      <File FileName="Assets/Strs.cs" Line="11" Column="26" />
-      <File FileName="Assets/Str3.cs" Line="18" Column="1" />
-      <File FileName="Assets/Str4.cs" Line="4" Column="1" />
-      <File FileName="Assets/NewMonoBehaviour.cs" Line="4" Column="1" />
-      <File FileName="Assets/Str5.cs" Line="12" Column="1" />
-      <File FileName="Assets/NewMonoBehaviour.cs" Line="14" Column="26" />
-      <File FileName="Assets/Str7.cs" Line="11" Column="1" />
-      <File FileName="Assets/Task/Str8.cs" Line="10" Column="37" />
-      <File FileName="Assets/Task/Str9.cs" Line="9" Column="6" />
-      <File FileName="Assets/Task/Str10.cs" Line="16" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,7 +11,7 @@
           <Node name="UnityTest" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Task" expanded="True">
-                <Node name="Str10.cs" selected="True" />
+                <Node name="CommenntsAndConsole.cs" selected="True" />
               </Node>
             </Node>
           </Node>
