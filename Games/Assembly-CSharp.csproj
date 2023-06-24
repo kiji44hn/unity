@@ -61,6 +61,7 @@
     <Compile Include="Assets/Scripts/PickupObj.cs" />
     <Compile Include="Assets/Scripts/Slot.cs" />
     <Compile Include="Assets/Scripts/itemListEntity.cs" />
+    <Compile Include="Assets/Gimmicks/SampleGimmick.cs" />
     <Compile Include="Assets/Scripts/Item.cs" />
     <Compile Include="Assets/Scripts/itemGenerator.cs" />
     <Compile Include="Assets/Scripts/ItemBox.cs" />

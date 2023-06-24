@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class ItemBox : MonoBehaviour
 {
-    // Slotが空いていたら、左から入れていく
-
-
+    // slotsにslot要素をコードから入れる
     [SerializeField] Slot[] slots;
+    [SerializeField] Slot selectedSlot = null;
+
     // どこでも実行できる
     public static ItemBox instance;
     public void Awake()
@@ -15,6 +15,7 @@ public class ItemBox : MonoBehaviour
         if (instance == null)
         {
             instance = this;
+            slots = GetComponentsInChildren<Slot>();
         }
     }
 
@@ -30,27 +31,38 @@ public class ItemBox : MonoBehaviour
                 break;
             }
         }
-        /*
-        if (slots[0].IsEmpty())
+    }
+
+    public void OnSelectSlot(int position)
+    {
+        // 一旦、全てのスロットの選択パネルを非表示
+        foreach (Slot slot in slots)
         {
-            slots[0].SetItem(item);
+            slot.HideBgPanel();
         }
-        else if (slots[1].IsEmpty())
+
+        // 選択されたスロットの選択パネルを表示
+        if (slots[position].OnSelected())
         {
-            slots[1].SetItem(item);
+            selectedSlot = slots[position];
         }
-        else if (slots[2].IsEmpty())
+    }
+
+    // アイテムの使用を試みる&使えるなら使ってしまう
+    public bool TryUseItem(Item.Type type)
+    {
+        // 選択スロットがあるかどうか
+        if (selectedSlot == null)
         {
-            slots[2].SetItem(item);
+            return false;
         }
-        else if (slots[3].IsEmpty())
+        if (selectedSlot.GetItem().type == type)
         {
-            slots[3].SetItem(item);
+            selectedSlot.SetItem(null);
+            selectedSlot.HideBgPanel();
+            selectedSlot = null;
+            return true;
         }
-        else
-        {
-            slots[4].SetItem(item);
-        }
-        */
+        return false;
     }
 }

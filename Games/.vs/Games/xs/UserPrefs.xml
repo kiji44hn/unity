@@ -1,20 +1,22 @@
 ﻿<Properties StartupConfiguration="{2C8D6DA2-2945-FB65-CF9A-23EA206738D8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PickupObj.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Slot.cs">
     <Files>
       <File FileName="Assets/Scripts/PickupObj.cs" Line="19" Column="9" />
-      <File FileName="Assets/Scripts/Item.cs" Line="15" Column="19" />
-      <File FileName="Assets/Scripts/ItemBox.cs" Line="19" Column="6" />
-      <File FileName="Assets/Scripts/Slot.cs" Line="22" Column="22" />
-      <File FileName="Assets/Scripts/itemListEntity.cs" Line="8" Column="12" />
-      <File FileName="Assets/Scripts/itemGenerator.cs" Line="9" Column="32" />
+      <File FileName="Assets/Scripts/Item.cs" />
+      <File FileName="Assets/Scripts/ItemBox.cs" Line="63" Column="33" />
+      <File FileName="Assets/Scripts/Slot.cs" Line="38" Column="6" />
+      <File FileName="Assets/Scripts/itemListEntity.cs" />
+      <File FileName="Assets/Scripts/itemGenerator.cs" />
+      <File FileName="Assets/Gimmicks/SampleGimmick.cs" Line="17" Column="66" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Games" expanded="True">
             <Node name="Assets" expanded="True">
+              <Node name="Gimmicks" expanded="True" />
               <Node name="Scripts" expanded="True">
-                <Node name="PickupObj.cs" selected="True" />
+                <Node name="Slot.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -29,7 +31,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dccf34af-f855-4981-828c-e60f30ca41cd" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d24f7f68-4123-4ce7-829b-17bd7356b81b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
