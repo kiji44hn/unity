@@ -4,70 +4,80 @@ using UnityEngine;
 
 public class ItemBox : MonoBehaviour
 {
-    // slotsにslot要素をコードから入れる
-    [SerializeField] Slot[] slots;
+
+
+    [SerializeField] Slot[] slots = default;
+
     [SerializeField] Slot selectedSlot = null;
 
-    // どこでも実行できる
+    // どこでも実行できるやつ
     public static ItemBox instance;
-    public void Awake()
+    private void Awake()
     {
         if (instance == null)
         {
             instance = this;
+
+            // slotsにslot要素をコードからいれる方法
             slots = GetComponentsInChildren<Slot>();
         }
     }
 
-    // PickupObjがクリックされたら、スロットにアイテムを入れる
-
+    // PickupObjがクリックされたら、スロットにアイテムをいれる
     public void SetItem(Item item)
     {
-        foreach (Slot slot in slots)
+        foreach (Slot slot in slots) // slotsの数だけ繰り返す
         {
-            if (slot.IsEmpty())
+            if (slot.IsEmpty()) //slotがもし空だった場合
             {
-                slot.SetItem(item);
-                break;
+                slot.SetItem(item); //slotにアイテムを入れる
+                break;              //空のスロットにアイテムを入れたら繰り返しを止める
             }
+
         }
     }
 
+    //スロットが選択された時に実行する関数
     public void OnSelectSlot(int position)
     {
-        // 一旦、全てのスロットの選択パネルを非表示
-        foreach (Slot slot in slots)
+        //一旦全てのスロットの選択パネルを非表示にする
+        foreach (Slot slot in slots) //slotsの数だけ繰り返す
         {
             slot.HideBgPanel();
         }
 
-        selectedSlot = null;
+        selectedSlot = null; //選択されているスロットを無しにする
 
-        // 選択されたスロットの選択パネルを表示
-        if (slots[position].OnSelected())
+        //選択されたスロットの選択パネルを表示する
+        if (slots[position].OnSelected()) // もしアイテムの選択が成功したなら
         {
-            selectedSlot = slots[position];
+            selectedSlot = slots[position]; //選択しているスロットの番号を変数に入れる
         }
     }
 
-    // アイテムの使用を試みる&使えるなら使ってしまう
+
+    //アイテムの使用を試みる＆使えるなら使ってしまう
     public bool TryUseItem(Item.Type type)
     {
-        // 選択スロットがあるかどうか
+        //選択スロットがあるかどうか
         if (selectedSlot == null)
         {
             return false;
         }
+
         if (selectedSlot.GetItem().type == type)
         {
-            selectedSlot.SetItem(null);
-            selectedSlot.HideBgPanel();
-            selectedSlot = null;
+            selectedSlot.SetItem(null); // 使ったアイテムを消す
+            selectedSlot.HideBgPanel(); // 選択背景画像も消す
+            selectedSlot = null;        // 選んでるスロットの保持もなくす
             return true;
         }
+
         return false;
     }
 
+
+    // ZoomPanelスクリプトのShowPanel関数で実行
     public Item GetSelectedItem()
     {
         if (selectedSlot == null)

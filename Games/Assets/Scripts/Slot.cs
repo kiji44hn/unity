@@ -5,20 +5,22 @@ using UnityEngine.UI;
 
 public class Slot : MonoBehaviour
 {
-    Item item;
-    [SerializeField] Image image;
-    [SerializeField] GameObject backGroundPanel;
+    Item item = default;
+    [SerializeField] Image image = default;
+    [SerializeField] GameObject backgroundPanel = default;
 
     private void Awake()
     {
-        // image = GetComponent<Image>();
+        //image = GetComponent<Image>(); //imageにImageコンポーネントを入れる
     }
 
-    public void Start()
+    private void Start()
     {
-        backGroundPanel.SetActive(false);
+        backgroundPanel.SetActive(false);
     }
 
+
+    //アイテムスロットが空かどうかの判断
     public bool IsEmpty()
     {
         if (item == null)
@@ -28,41 +30,52 @@ public class Slot : MonoBehaviour
         return false;
     }
 
+
+    //ItemBoxスクリプトのSetItem関数で実行
     public void SetItem(Item item)
     {
         this.item = item;
         UpdateImage(item);
     }
 
+
+    //ItemBoxスクリプトのTryUseItem関数で実行
     public Item GetItem()
     {
         return item;
     }
 
+
+    // アイテムを受け取ったら画像をスロットに表示してやる
     void UpdateImage(Item item)
     {
-        if (item == null)
+        if (item == null) //もしアイテムがないなら
         {
-            image.sprite = null;
+            image.sprite = null; //画像を何も入れない
         }
         else
         {
-            image.sprite = item.sprite;
+            image.sprite = item.sprite;　//Slotのimageにクリックしたアイテムのspriteを入れる
         }
     }
 
+
+    //選択した時の背景パネルを表示する関数　＝＞ItemBoxスクリプトのOnSelectSlot関数で使用
     public bool OnSelected()
     {
-        if (item == null)
+        if (item == null) //　アイテムを持っていない場合
         {
-            return false;
+            return false; //選択は失敗
         }
-        backGroundPanel.SetActive(true);
-        return true;
+
+        backgroundPanel.SetActive(true); //背景画像パネルを表示する
+        return true; //選択成功
     }
 
+
+    //選択した時の背景パネルを消す関数　＝＞ItemBoxスクリプトのOnSelectSlot関数で使用
     public void HideBgPanel()
     {
-        backGroundPanel.SetActive(false);
+        backgroundPanel.SetActive(false);
     }
 }

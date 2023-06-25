@@ -58,13 +58,15 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.3f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/SetObj.cs" />
     <Compile Include="Assets/Scripts/PickupObj.cs" />
     <Compile Include="Assets/Scripts/Slot.cs" />
-    <Compile Include="Assets/Scripts/itemListEntity.cs" />
+    <Compile Include="Assets/Scripts/ItemListEntity.cs" />
     <Compile Include="Assets/Gimmicks/SampleGimmick.cs" />
+    <Compile Include="Assets/Scripts/Zooms/ItemRotation.cs" />
+    <Compile Include="Assets/Scripts/Zooms/ZoomPanel.cs" />
     <Compile Include="Assets/Scripts/Item.cs" />
-    <Compile Include="Assets/Scripts/ZoomPanel.cs" />
-    <Compile Include="Assets/Scripts/itemGenerator.cs" />
+    <Compile Include="Assets/Scripts/ItemGenerator.cs" />
     <Compile Include="Assets/Scripts/ItemBox.cs" />
   </ItemGroup>
   <ItemGroup>

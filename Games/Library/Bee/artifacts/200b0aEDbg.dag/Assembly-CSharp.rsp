@@ -353,11 +353,13 @@
 "Assets/Gimmicks/SampleGimmick.cs"
 "Assets/Scripts/Item.cs"
 "Assets/Scripts/ItemBox.cs"
-"Assets/Scripts/itemGenerator.cs"
-"Assets/Scripts/itemListEntity.cs"
+"Assets/Scripts/ItemGenerator.cs"
+"Assets/Scripts/ItemListEntity.cs"
 "Assets/Scripts/PickupObj.cs"
+"Assets/Scripts/SetObj.cs"
 "Assets/Scripts/Slot.cs"
-"Assets/Scripts/ZoomPanel.cs"
+"Assets/Scripts/Zooms/ItemRotation.cs"
+"Assets/Scripts/Zooms/ZoomPanel.cs"
 -langversion:9.0
 
 /deterministic

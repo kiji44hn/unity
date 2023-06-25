@@ -4,20 +4,23 @@ using UnityEngine;
 
 public class SampleGimmick : MonoBehaviour
 {
+    // やりたいこと
     // アイテムCubeを持っている状態で、クリックすると消える
-    // クリック判定
-    // アイテムを持っている判定
+    // ・クリック判定
+    // ・アイテム持ってますよ判定
 
-    [SerializeField] Item.Type clearItem;
+    //ギミックを解除するアイテムを外で設定できるようにする
+    [SerializeField] Item.Type clearItem = default;
 
     public void OnClickObj()
     {
-        Debug.Log("OnClickObj");
+        Debug.Log("クリックしたよ！");
+
         // アイテムCubeを持っているかどうか
-        bool gimmickClear = ItemBox.instance.TryUseItem(clearItem);
-        if (gimmickClear == true)
+        bool Clear = ItemBox.instance.TryUseItem(clearItem);
+        if (Clear == true) // クリアアイテムを持っている場合
         {
-            Debug.Log("ギミックを解除");
+            Debug.Log("ギミック解除");
             gameObject.SetActive(false);
         }
     }

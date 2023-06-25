@@ -93,7 +93,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 1662313842739832217}
-  backGroundPanel: {fileID: 2335717348718602945}
+  backgroundPanel: {fileID: 2335717348718602945}
 --- !u!114 &8354541320073336698
 MonoBehaviour:
   m_ObjectHideFlags: 0

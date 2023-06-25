@@ -1,14 +1,16 @@
 ﻿<Properties StartupConfiguration="{2C8D6DA2-2945-FB65-CF9A-23EA206738D8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ItemBox.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SetObj.cs">
     <Files>
-      <File FileName="Assets/Scripts/PickupObj.cs" Line="19" Column="9" />
-      <File FileName="Assets/Scripts/Item.cs" />
-      <File FileName="Assets/Scripts/ItemBox.cs" Line="44" Column="22" />
-      <File FileName="Assets/Scripts/Slot.cs" Line="54" Column="21" />
-      <File FileName="Assets/Scripts/itemListEntity.cs" />
-      <File FileName="Assets/Scripts/itemGenerator.cs" />
-      <File FileName="Assets/Gimmicks/SampleGimmick.cs" />
-      <File FileName="Assets/Scripts/ZoomPanel.cs" Line="13" Column="54" />
+      <File FileName="Assets/Scripts/PickupObj.cs" Line="8" Column="24" />
+      <File FileName="Assets/Scripts/Item.cs" Line="4" Column="15" />
+      <File FileName="Assets/Scripts/ItemBox.cs" Line="34" Column="5" />
+      <File FileName="Assets/Scripts/Slot.cs" Line="79" Column="1" />
+      <File FileName="Assets/Gimmicks/SampleGimmick.cs" Line="23" Column="21" />
+      <File FileName="Assets/Scripts/ZoomPanel.cs" Line="13" Column="14" />
+      <File FileName="Assets/Scripts/ItemListEntity.cs" Line="8" Column="51" />
+      <File FileName="Assets/Scripts/ItemGenerator.cs" Line="42" Column="6" />
+      <File FileName="Assets/Scripts/ItemRotation.cs" Line="22" Column="6" />
+      <File FileName="Assets/Scripts/SetObj.cs" Line="17" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +19,8 @@
             <Node name="Assets" expanded="True">
               <Node name="Gimmicks" expanded="True" />
               <Node name="Scripts" expanded="True">
-                <Node name="ItemBox.cs" selected="True" />
+                <Node name="Zooms" expanded="True" />
+                <Node name="SetObj.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -27,7 +30,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="aba70b52-871e-4536-a559-9573a0982cc8" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="22ccaaac-5c6c-434a-8356-78a3273372a5" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
