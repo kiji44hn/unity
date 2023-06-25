@@ -11,6 +11,7 @@ public class PasswordButton : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log(numberText);
         number = 0;
         numberText.text = number.ToString(); //テキストの数値を変える
     }

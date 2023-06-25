@@ -9,8 +9,10 @@
       <File FileName="Assets/Scripts/ItemListEntity.cs" />
       <File FileName="Assets/Scripts/ItemGenerator.cs" />
       <File FileName="Assets/Scripts/SetObj.cs" />
-      <File FileName="Assets/Gimmicks/Password.cs" />
-      <File FileName="Assets/Gimmicks/PasswordButton.cs" Line="13" Column="6" />
+      <File FileName="Assets/Gimmicks/Password.cs" Line="15" Column="1" />
+      <File FileName="Assets/Gimmicks/PasswordButton.cs" Line="14" Column="31" />
+      <File FileName="Assets/Scripts/Zooms/ZoomPanel.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Zooms/ItemRotation.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -27,16 +29,11 @@
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" expanded="True" selected="True" />
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8643b447-6849-4629-8661-eb4ccdfbe889" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e555a9cc-9656-4e05-b556-1e36710ffb82" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
