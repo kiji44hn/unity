@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{1EEA629B-4019-6A39-DC08-9D95C9A92A90}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Gimmicks/Password.cs">
+    <Files>
+      <File FileName="Assets/Gimmicks/PasswordButton.cs" Line="18" Column="1" />
+      <File FileName="Assets/Gimmicks/Password.cs" Line="7" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sample_Games" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Gimmicks" expanded="True">
+                <Node name="PasswordButton.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="88b37549-9b2c-45ab-993c-216b2dbf8956" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
